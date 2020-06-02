@@ -9,7 +9,7 @@
 # Very efficient for large data sets.
 
 # Merge Sort does log n merge steps because each merge step
-# doubles the arrst size.
+# doubles the array size.
 
 # It does n work for each merge step because it must look at
 # every item.

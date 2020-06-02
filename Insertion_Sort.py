@@ -1,5 +1,4 @@
 # Python 3
-# Here is my Code:
 
 # Introduction to Insertion Sort
 
@@ -10,6 +9,21 @@
 
 # It runs in O(n^2).
 
+# Here is my Code:
 
 
+# Define a function:
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        j = i-1
+        while arr[j] > arr[j+1] and j >= 0:
+            arr[j], arr[j + 1] = arr[j+1], arr[j]
+            j -= 1
+
+    return arr
+
+
+# Lets consider a example
+arr1 = [9, 4, 6, 2, 5, 1]
+print('Output : ', insertion_sort(arr1))
 
